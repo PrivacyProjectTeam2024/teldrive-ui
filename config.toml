@@ -1,0 +1,13 @@
+[db]
+data-source = "postgres://koyeb-adm:npg_9zXMvlnqmw0u@ep-fragrant-sun-a2hxcemh.eu-central-1.pg.koyeb.app/koyebdb"
+prepare-stmt = false
+
+[db.pool]
+enable = false
+
+[jwt]
+allowed-users = ["@dumpstig"]
+secret = "bf7ff1bcea2908aa9de762878a39e0cc"
+
+[tg.uploads]
+encryption-key = ""
